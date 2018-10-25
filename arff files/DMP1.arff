@@ -1,0 +1,33 @@
+@relation loginpattern
+
+@attribute User{U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute Machine{M01,M02,M03,M04,M05,M06,M07,M08,M09,MM,M16,M19,M18}
+@attribute Date{Weekdays,Weekends}
+@attribute Logintime{8,M}
+@attribute Logouttime{18,M}
+@attribute Avg#ofuserprocess numeric
+@attribute Maxuserprocesses numeric
+@attribute Keyboardchar numeric
+@attribute Cpuusage numeric
+
+@data
+
+U01	M01	Weekdays	8	18	22	70	12345	12098
+U02	M02	Weekdays	M	M	22	70	12345	12098
+U03	M03	Weekdays	8	18	22	70	12345	12098
+U04	M04	Weekdays	M	M	22	70	12345	12098
+U05	M05	Weekdays	8	18	22	70	12345	12098
+U06	M06	Weekdays	M	M	22	70	12345	12098
+U07	M07	Weekdays	8	18	22	70	12345	12098
+U08	M08	Weekdays	M	M	22	70	12345	12098
+U09	M09	Weekdays	8	18	22	70	12345	12098
+U10	MM	Weekdays	M	M	22	70	12345	12098
+U11	MM	Weekdays	8	18	22	70	12345	12098
+U12	MM	Weekdays	M	M	22	70	12345	12098
+U13	MM	Weekdays	M	M	22	70	12345	12098
+U14	MM	Weekdays	M	M	22	70	12345	12098
+U15	MM	Weekdays	M	M	22	70	12345	12098
+U16	M16	Weekdays	M	18	22	70	12345	12098
+U17	M19	Weekdays	M	18	22	70	12345	12098
+U18	M18	Weekends	M	18	22	70	12345	12098
+U19	M19	Weekends	M	18	22	70	12345	12098

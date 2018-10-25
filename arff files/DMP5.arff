@@ -1,0 +1,33 @@
+@relation Emailaccess
+
+@attribute User{U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute Machine{M01,M02,M03,M04,M05,M06,M07,M08,M09,MM,M16,M19,M18}
+@attribute Date{Weekdays,Weekends}
+@attribute emailprogram{E1,E3,E4,E5}
+@attribute Email{j,j&m,s,x,b}
+@attribute Received numeric
+@attribute Sent numeric
+@attribute Bytes numeric
+@attribute Attachments numeric
+
+@data
+
+U01	M01	Weekdays	E1	j					0	1	460108	10
+U02	M02	Weekdays	E1	j&m					0	1	422141	10
+U03	M03	Weekdays	E1	j					0	1	460108	10
+U04	M04	Weekdays	E1	j&m					0	1	422141	10
+U05	M05	Weekdays	E1	j					0	1	460108	10
+U06	M06	Weekdays	E1	s					1	0	422141	10
+U07	M07	Weekdays	E1	s					0	1	460108	10
+U08	M08	Weekdays	E1	s					1	0	422141	10
+U09	M09	Weekdays	E3	s					0	1	460108	10
+U10	MM	Weekdays	E4	s					1	0	422141	10
+U11	MM	Weekdays	E1	x					0	1	460108	10
+U12	MM	Weekdays	E1	x					0	1	460108	10
+U13	MM	Weekdays	E1	x					0	1	460108	10
+U14	MM	Weekdays	E1	x					0	1	460108	10
+U15	MM	Weekdays	E1	b					1	0	460108	10
+U16	M16	Weekdays	E1	b					1	0	460108	10
+U17	M19	Weekdays	E4	b					1	0	460108	10
+U18	M18	Weekends	E5	b					1	0	460108	10
+U19	M19	Weekends	E4	b					1	0	460108	10

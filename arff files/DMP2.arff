@@ -1,0 +1,30 @@
+@relation Pogramaccess
+
+@attribute User{U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute Machine{M01,M02,M03,M04,M05,M06,M07,M08,M09,MM,M16,M19,M18}
+@attribute Date{Weekdays,Weekend}
+@attribute Program{L1,U1,L2,U2,L3,L2U1,L1U2,L4,U3}
+@attribute Executiontime numeric
+@attribute Printer{PR1,PR2,PR3,PR4,PR5,PR6}
+
+@data
+
+U01	M01	Weekdays	L1	626	PR1
+U02	M02	Weekdays	U1	946	PR1
+U03	M03	Weekdays	L2	636	PR1
+U04	M04	Weekdays	U1	946	PR1
+U05	M05	Weekdays	U2	636	PR2
+U06	M06	Weekdays	U1	946	PR2
+U07	M07	Weekdays	L1	636	PR2
+U08	M08	Weekdays	U1	946	PR2
+U09	M09	Weekdays	L3	636	PR2
+U10	MM	Weekdays  L2U1 946	PR2
+U11	MM	Weekdays	U2	636	PR3
+U12	MM	Weekdays	U2	636	PR3
+U13	MM	Weekdays  L1U2	655	PR4
+U14	MM	Weekdays	U2	636	PR4
+U15	MM	Weekdays	U2	636	PR4
+U16	M16	Weekdays   L1U2	663	PR4
+U17	M19	Weekdays	L4	663	PR6
+U18	M18	Weekend	    U3	672	PR5
+U19	M19	Weekend	    L4	672	PR6
